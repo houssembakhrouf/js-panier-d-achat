@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+    <h1>panier d'achat</h1>
+    <div class="all">
+<!-- pruduct1 -->
+
+    <div class="produit">
+     <img src="item.jpg" alt="">
+     <div class="details">
+        <p>nike mercurial</p>
+        <p class="prix">15000</p>
+        <button onclick="plus(event)" class="increment">+</button>
+	<span class="value">1</span>
+	<button onclick="moin(event)" class="decrement">-</button>
+    <div onclick="like(event)" class="heart" style="color: red;">❤</div>
+    <button onclick="removeitem(event)" class="remove">delete</button>
+      </div>
+	<!-- pruduct2 -->
+   </div>
+   <div class="produit">
+    <img src="adidas.jpg" alt="">
+    <div class="details">
+       <p>adidas 2022</p>
+       <p class="prix">1400</p>
+       <button onclick="plus(event)" class="increment">+</button>
+   <span class="value">1</span>
+   <button onclick="moin(event)" class="decrement">-</button>
+   <div onclick="like(event)" class="heart" style="color: red;">❤</div>
+   <button onclick="removeitem(event)" class="remove">delete</button>
+     </div>
+   <!-- pruduct3 -->
+  </div>
+  <div class="produit">
+    <img src="puma.jpg" alt="">
+    <div class="details">
+       <p>puma 2022</p>
+       <p class="prix">1200</p>
+       <button onclick="plus(event)" class="increment">+</button>
+   <span class="value">1</span>
+   <button onclick="moin(event)" class="decrement">-</button>
+   <div onclick="like(event)" class="heart" style="color: red;">❤</div>
+   <button onclick="removeitem(event)" class="remove">delete</button>
+     </div>
+   
+  </div>
+</div>
+<!-- total -->
+  <div class="total">
+    <p>Total : $</p>
+  </div>
+   
+
+<script src="main2.js"></script>
+</body>
+</html>
